@@ -26,6 +26,9 @@ Price movement charts help with timing the market for buying or selling opportun
 ### Renko 
 Is a type of price movement chart that has no time dimension. The key parameter it requires is the box size which signifies each brick (price movement size). The box size can be set to a specific value, or it be set to be equal to the ATR (average true range) which is derived from the closing price of the stock. With these charts its able to quickly tell the direction of trend changes.
 
+### PNF
+PNF otherwise known as Point and Figure Chart is very similar to the renko chart, in that it also does not have a time dimension. An X represents when the price has moved higher, and an O represents when the price has dropped. The PNF also has a box size that can be set as a specific value, or be equal to the ATR (average true range).
+
 ### OHLC
 
 This is a type of price movement chart that captures the open, high, low and closing prices for each given trading day.
@@ -51,6 +54,8 @@ Morris, Gregory L., 1948-, Candlestick charting explained timeless techniques fo
 [Price Movement Charts](https://github.com/matplotlib/mplfinance/blob/master/examples/price-movement_plots.ipynb)
 
 [Renko Charts](https://www.investopedia.com/terms/r/renkochart.asp)
+
+[PNF Charts](https://www.investopedia.com/terms/p/pointandfigurechart.asp)
 
 
 
