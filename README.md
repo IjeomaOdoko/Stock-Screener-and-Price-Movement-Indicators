@@ -17,11 +17,16 @@ The following python libraries were utilized to achieve this:
 - *[mplfinance](https://github.com/matplotlib/mplfinance)* to create price movement charts.
 
 
+## Price Movement Charts 
 
-## Renko 
-Is a type of price movement chart that has no time dimension. The key parameter it requires is the ATR (average true range) which is derived from the closing price of the stock. It is a lagging indicator.
+Price movement charts help with timing the market for buying or selling opportunities by determining up and down trends in price movement. These charts can typically be used with any financial time series like stocks, bonds, options, futures or commodities. 
 
-## OHLC
+[Example codes and charts created in python here](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/Stock%20Screener%20with%20price%20movement%20indicators%20.ipynb). 
+
+### Renko 
+Is a type of price movement chart that has no time dimension. The key parameter it requires is the box size which signifies each brick (price movement size). The box size can be set to a specific value, or it be set to be equal to the ATR (average true range) which is derived from the closing price of the stock. With these charts its able to quickly tell the direction of trend changes.
+
+### OHLC
 
 This is a type of price movement chart that captures the open, high, low and closing prices for each given trading day.
 
@@ -29,18 +34,30 @@ The vertical line represents the range in prices from high to low for the day. T
 
 ![OHLC indicator.png](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/OHLC%20price%20Indicator%20.png)
 
-
-## Candlestick 
+### Candlestick 
 
 Also known as Japanese candlesticks are a type of price movement chart that takes into consideration both price, time and volume. It helps to determine the sentiment of the market - Bullish or Bearish. Bullish - would indicate a buy, while Bearish - would indicate short or sell for a stock trader.
 
 Candlestick patterns can help determine price direction and momentum. One key thing to note when using candlesticks to understand price movement, it is important to first identify the market trend, before finding candlestick patterns in the data. Candlestick patterns are also best suited for identifying short term price movements.
 
-### Long vs Short Days 
+#### Long vs Short Days 
 
 Long days refers to large price movement within the trading day, and short days refers to low price movement within the trading day. This comparison however is best suited for short-term price movement of about 5-10days. 
 
 ![Candlestick Lines.png](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/Candlestick%20indicator%20.png)
+
+## References: 
+
+Morris, Gregory L., 1948-, Candlestick charting explained timeless techniques for trading stocks and futures [electronic resource], New York : McGraw-Hill, c2006, 3rd ed.
+
+[Price Movement Charts](https://github.com/matplotlib/mplfinance/blob/master/examples/price-movement_plots.ipynb)
+
+[Renko Charts](https://www.investopedia.com/terms/r/renkochart.asp)
+
+
+
+
+
 
 
 
