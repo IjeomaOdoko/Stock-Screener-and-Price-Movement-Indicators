@@ -4,12 +4,19 @@ This purpose of this project was to create a stock screener based on market cap,
 
 The following python libraries were utilized to achieve this: 
 
-*pandas_datareader* to import historical data on stocks.
-*pandas* for working with large data sets.
-*datetime* for handling date datatypes.
-*matplotlib* for data visualization.
-*get-all-tickers* to get lists of stocks.
-*mplfinance* to create price movement charts.
+- *[pandas_datareader](https://pandas-datareader.readthedocs.io/en/latest/)* to import historical data on stocks.
+
+- *[pandas](https://pandas.pydata.org/)* for working with large data sets.
+
+- *[datetime](https://docs.python.org/3/library/datetime.html)* for handling date and time datatypes.
+
+- *[matplotlib](https://matplotlib.org/)* for data visualization.
+
+- *[get-all-tickers](https://pypi.org/project/get-all-tickers/)* to get lists of stocks from NYSE, NASDAQ, and AMEX. .
+
+- *[mplfinance](https://github.com/matplotlib/mplfinance)* to create price movement charts.
+
+
 
 ## Renko 
 Is a type of price movement chart that has no time dimension. The key parameter it requires is the ATR (average true range) which is derived from the closing price of the stock. It is a lagging indicator.
