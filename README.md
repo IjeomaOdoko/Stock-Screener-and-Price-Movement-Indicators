@@ -31,9 +31,7 @@ Is a type of price movement chart that has no time dimension. The key parameter 
 This is a type of price movement chart that captures the open, high, low and closing prices for each given trading day.
 
 The vertical line represents the range in prices from high to low for the day. The horizontal lines extending out from the vertical line, represents open price for the left, and close price for the right. 
-
 ![OHLC indicator.png](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/OHLC%20price%20Indicator%20.png)
-
 ### Candlestick 
 
 Also known as Japanese candlesticks are a type of price movement chart that takes into consideration both price, time and volume. It helps to determine the sentiment of the market - Bullish or Bearish. Bullish - would indicate a buy, while Bearish - would indicate short or sell for a stock trader.
