@@ -21,7 +21,7 @@ The following python libraries were utilized to achieve this:
 
 Price movement charts help with timing the market for buying or selling opportunities by determining up and down trends in price movement. These charts can typically be used with any financial time series like stocks, bonds, options, futures or commodities. 
 
-[Example codes and charts created in python here](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/Stock%20Screener%20with%20price%20movement%20indicators%20.ipynb). 
+[Example codes and charts created in python here](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/tree/master/Code). 
 
 ### Renko 
 Is a type of price movement chart that has no time dimension. The key parameter it requires is the box size which signifies each brick (price movement size). The box size can be set to a specific value, or it be set to be equal to the ATR (average true range) which is derived from the closing price of the stock. With these charts its able to quickly tell the direction of trend changes.
