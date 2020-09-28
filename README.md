@@ -16,6 +16,8 @@ The following python libraries were utilized to achieve this:
 
 - *[mplfinance](https://github.com/matplotlib/mplfinance)* to create price movement charts.
 
+- *[ipwidgets](https://ipywidgets.readthedocs.io/en/latest/) to provide interactivity within the jupyter notebook.
+
 
 ## Price Movement Charts 
 
