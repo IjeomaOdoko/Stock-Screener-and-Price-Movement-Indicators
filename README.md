@@ -34,7 +34,7 @@ PNF otherwise known as Point and Figure Chart is very similar to the renko chart
 This is a type of price movement chart that captures the open, high, low and closing prices for each given trading day.
 
 The vertical line represents the range in prices from high to low for the day. The horizontal lines extending out from the vertical line, represents open price for the left, and close price for the right. 
-![OHLC indicator.png](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/OHLC%20price%20Indicator%20.png)
+![OHLC indicator.png](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/pictures/OHLC%20price%20Indicator%20.png)
 ### Candlestick 
 
 Also known as Japanese candlesticks are a type of price movement chart that takes into consideration both price, time and volume. It helps to determine the sentiment of the market - Bullish or Bearish. Bullish - would indicate a buy, while Bearish - would indicate short or sell for a stock trader.
@@ -45,7 +45,7 @@ Candlestick patterns can help determine price direction and momentum. One key th
 
 Long days refers to large price movement within the trading day, and short days refers to low price movement within the trading day. This comparison however is best suited for short-term price movement of about 5-10days. 
 
-![Candlestick Lines.png](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/Candlestick%20indicator%20.png)
+![Candlestick Lines.png](https://github.com/IjeomaOdoko/Stock-Screener-and-Price-Movement-Indicators/blob/master/pictures/Candlestick%20indicator%20.png)
 
 ## References: 
 
